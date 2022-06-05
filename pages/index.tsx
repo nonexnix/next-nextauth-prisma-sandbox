@@ -9,7 +9,6 @@ const Home: NextPage = () => {
   if (!session) {
     return (
       <div className="min-h-screen grid place-items-center">
- 
         <button
           onClick={() => signIn()}
           className="px-4 py-2 rounded bg-blue-500 text-white font-semibold">
